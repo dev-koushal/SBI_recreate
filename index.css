@@ -252,6 +252,7 @@ ul {
   text-align: center;
   margin-bottom: 1rem;
   color: #2d2d2d;
+  
 }
 
 .login-btn {
@@ -292,6 +293,7 @@ ul {
 }
 
 .main-heading {
+  font-family: "Open Sans", sans-serif;
   text-align: start;
   margin-left: 10rem;
   font-size: 30px;
