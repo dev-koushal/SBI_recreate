@@ -387,21 +387,21 @@ ul {
   display: flex;
   width: 500%; 
   height: 100%;
-  animation: slide 300s infinite linear;
+  animation: slide 1200s infinite linear;
 }
 
 .slides img {
   width: 20%; 
   height : 100%;
-  object-fit: cover;
+  object-fit:fill;
   background-color: #000;
 }
 
 @keyframes slide {
   0%     { transform: translateX(0%); }
-  20%    { transform: translateX(-100%); }
+  /* 20%    { transform: translateX(-100%); }
   40%    { transform: translateX(-200%); }
-  60%    { transform: translateX(-300%); }
+  60%    { transform: translateX(-300%); } */
   80%    { transform: translateX(-400%); }
   100%   { transform: translateX(0%); } 
 }
